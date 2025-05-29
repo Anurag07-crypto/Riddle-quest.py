@@ -100,6 +100,10 @@ def start_game():
         print("Bye bye 👋")
 
 start_game()
+replay = input("Wanna play again? (y/n): ")
+if replay.lower() == 'y':
+    start_game()
+
 
     
 
